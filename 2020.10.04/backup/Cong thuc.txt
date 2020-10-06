@@ -1,0 +1,36 @@
+﻿
+CT-NCC
++ Ngay 1-6: 
+=IF(AND(VALUE('BC CHI PHI T10.2020'!F6)<=VALUE('Chi tiết'!A8),VALUE('Chi tiết'!A8)<=VALUE('BC CHI PHI T10.2020'!F7)),"Dung","sai")
+
+   ++ ngay: cat chuoi va compare
++ Ki hieu c: Compare chuoi
+=LEFT('Chi tiết'!C8,2)
+
+
++ Phan loai NCC: Compare chuoi
+=IF('Chi tiết'!AK8="Nhà Cung Cấp","dung","sai")
+
+=si
+
+Nhà Cung Cấp
+Lương thợ phụ
+BHXH
+Thuê VP Vacons
+Thuê Kho
+Internet
+Điện thoại
+Điện, Nước VP
+Điện, Nước Kho
+Rác
+Vệ Sinh
+Gửi xe
+Đồ dùng VP
+Grab
+In ấn
+CPN, hoa, quà
+Phí Ngân hàng
+Lãi vay mua xe
+GTGT
+Mua nhà của sếp
+Khác
