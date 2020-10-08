@@ -1,5 +1,6 @@
-﻿
-CT-NCC
+https://1drv.ms/x/s!AvqTII8yZ1xsgkgWVnKZmgppdux9
+
+CT-NCChttps://github.com/hoangmechanic/NhungLe/tree/master/2020.10.04/Release
 + Ngay 1-6: 
 =IF(AND(VALUE('BC CHI PHI T10.2020'!F6)<=VALUE('Chi tiết'!A8),VALUE('Chi tiết'!A8)<=VALUE('BC CHI PHI T10.2020'!F7)),"Dung","sai")
 
